@@ -19,3 +19,8 @@ seaborn
 # --- Workflow & Data Management ---
 snakemake    # Analysis pipeline
 dvc          # Data version control
+
+# --- Jupyter & Visualization ---
+ipykernel
+mne
+mne-connectivity
