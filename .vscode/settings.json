@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "/usr/local/bin/python",
+    "python.interpreterPath": "/usr/local/bin/python",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.terminal.activateEnvInSelectedTerminal": true,
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}

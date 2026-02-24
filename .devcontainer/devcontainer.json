@@ -5,6 +5,11 @@
     "context": ".."
   },
   "remoteUser": "vscode",
+  "containerEnv": {
+    "PYTHONPATH": "/workspaces/diagnostic-neuro-framework",
+    "REQUESTS_CA_BUNDLE": "/etc/ssl/certs/ca-certificates.crt"
+  },
+  "postCreateCommand": "chmod +x scripts/fetch_aal_atlas.sh && ./scripts/fetch_aal_atlas.sh && echo \"alias py='/usr/local/bin/python'\" >> ~/.bashrc",
   "customizations": {
     "vscode": {
         "extensions": [
@@ -26,6 +31,7 @@
         ],
         "settings": {
             "python.defaultInterpreterPath": "/usr/local/bin/python",
+            "python.terminal.activateEnvInSelectedTerminal": true,
             "python.analysis.typeCheckingMode": "basic",
             "editor.formatOnSave": true,
             "editor.defaultFormatter": "ms-python.black-formatter",
