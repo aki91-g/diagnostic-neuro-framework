@@ -1,0 +1,23 @@
+# --- Python Standards ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+ENV/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+*.ipynb
+
+# --- Nilearn & Datasets (重要！) ---
+nilearn_data/
+*cache/
+nilearn_ccache/
+
+# --- Project Specific ---
+out/figures/abide/aal/*.png
+
+# --- OS Standards ---
+.DS_Store
+Thumbs.db
