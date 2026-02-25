@@ -15,9 +15,9 @@ nilearn_data/
 nilearn_ccache/
 
 # --- Project Specific ---
-out/figures/abide/aal/*.png
+output/figures/abide/aal/*.png
 data/*
-out/*
+output/*
 !data/.gitkeep
 
 
