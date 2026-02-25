@@ -7,16 +7,16 @@ Currently implementing connectome visualization of AAL atlases based on ABIDE da
 
 ## Features (Current Progress)
 
-- [ ] fetch and preprocess ABIDE data
-- [ ] output connectivity matrix to `out` directory
-- [ ] 2D/3D Connectome and Chord Diagram in Jupyter notebook
+- fetch and preprocess ABIDE data
+- output connectivity matrix to `output` directory
+- 2D/3D Connectome and Chord Diagram in Jupyter notebook
 
 ## Roadmap (Future Vision)
 
-- [ ] Dataset Extension: ADHD-200, OpenNeuro, HCP, etc.
-- [ ] Atlas Variety: Schaefer, Glassier, etc.
-- [ ] Deep Learning: Classification model with GNN
-- [ ] Dashboard: Provide analysis on web
+- Dataset Extension: ADHD-200, OpenNeuro, HCP, etc.
+- Atlas Variety: Schaefer, Glassier, etc.
+- Deep Learning: Classification model with GNN
+- Dashboard: Provide analysis on web
 
 
 ### Repositofy Directory Tree
