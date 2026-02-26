@@ -1,4 +1,4 @@
-#  [ARCHIVED] ABIDE RDoC prototype
+#  [ARCHIVED] ABIDE analysis prototype
 Re-directed to: [ABIDE-rdoc-analysis](https://github.com/aki91-g/ABIDE-rdoc-analysis)
 
 ## Overview
